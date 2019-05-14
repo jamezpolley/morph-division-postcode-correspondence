@@ -27,8 +27,7 @@
     "postcodes"
   ],
   "engines": {
-    "node": "5.8.0",
-    "npm": "3.8.2"
+    "node": "10.3.0"
   },
   "author": "Simon Elvery",
   "license": "ISC",

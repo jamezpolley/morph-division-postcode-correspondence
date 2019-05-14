@@ -11,7 +11,7 @@ var db;
 var q;
 var fetched = [];
 
-const BASE = 'http://apps.aec.gov.au/eSearch/';
+const BASE = 'http://electorate.aec.gov.au/';
 const LISTING = BASE + 'LocalitySearchResults.aspx';
 
 // Delete existing data
@@ -113,10 +113,10 @@ function post(url, data) {
 			"Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
 			"Content-Type":"application/x-www-form-urlencoded",
 			"DNT":"1",
-			"Host":"apps.aec.gov.au",
-			"Origin":"http://apps.aec.gov.au",
+			"Host":"electorate.aec.gov.au",
+			"Origin":"https://electorate.aec.gov.au",
 			"Pragma":"no-cache",
-			"Referer":"http://apps.aec.gov.au/eSearch/LocalitySearchResults.aspx",
+			"Referer":"http://electorate.aec.gov.au/LocalitySearchResults.aspx",
 			"Upgrade-Insecure-Requests":"1",
 			"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36"
 		}
